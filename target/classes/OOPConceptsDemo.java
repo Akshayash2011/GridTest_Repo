@@ -8,7 +8,6 @@ class Animal {
     static String species = "General Animal"; // Class variable (shared by all instances)
     protected String name;
     protected int age;
-    private	String breed;
 
     // Constructor
     public Animal(String name, int age) {
@@ -18,7 +17,7 @@ class Animal {
 
     // Instance method
     public String speak() {
-        return "Some generic sound.";
+        return "Some generic sound";
     }
 }
 
