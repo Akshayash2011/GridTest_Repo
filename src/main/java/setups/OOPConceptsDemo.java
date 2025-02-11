@@ -17,7 +17,7 @@ class Animal {
 
     // Instance method
     public String speak() {
-        return "Some generic sound";
+        return "Some generic sound.";
     }
 }
 
