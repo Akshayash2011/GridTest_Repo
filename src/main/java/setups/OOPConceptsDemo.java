@@ -8,7 +8,7 @@ class Animal {
     static String species = "General Animal"; // Class variable (shared by all instances)
     protected String name;
     protected int age;
-    private	String breed;
+
 
     // Constructor
     public Animal(String name, int age) {
